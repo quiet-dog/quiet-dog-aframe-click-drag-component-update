@@ -1,7 +1,10 @@
 {
   "name": "aframe-drag-componet-up",
-  "author": "quiet-dog archzks@gmail.com",
-  "version": "1.0.0",
+  "author": {
+    "name": "quiet-dog",
+    "email": "archzks@gmail.com"
+  },
+  "version": "1.0.1",
   "description": "Click & Drag component for A-Frame.",
   "type": "module",
   "main": "./lib/index.umd.js",

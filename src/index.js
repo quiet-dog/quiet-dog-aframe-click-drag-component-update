@@ -1,5 +1,4 @@
 import deepEqual from 'deep-equal';
-import * as Aframe from "aframe"
 const COMPONENT_NAME = 'click-drag';
 const DRAG_START_EVENT = 'dragstart';
 const DRAG_MOVE_EVENT = 'dragmove';

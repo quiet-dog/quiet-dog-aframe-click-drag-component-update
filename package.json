@@ -1,8 +1,30 @@
 {
   "name": "aframe-drag-componet-up",
-  "private": true,
-  "version": "0.0.0",
+  "author": "quiet-dog archzks@gmail.com",
+  "version": "1.0.0",
+  "description": "Click & Drag component for A-Frame.",
   "type": "module",
+  "main": "./lib/index.umd.js",
+  "module": "./lib/index.es.js",
+  "exports": {
+    ".": {
+      "import": "./lib/index.es.js",
+      "require": "./lib/index.umd.js"
+    }
+  },
+  "keywords": [
+    "aframe",
+    "aframe-component",
+    "aframe-vr",
+    "vr",
+    "mozvr",
+    "webvr"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quiet-dog/quiet-dog-aframe-click-drag-component-update.git"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
